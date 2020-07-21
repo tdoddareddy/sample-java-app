@@ -1,0 +1,8 @@
+---
+applications:
+- name: sample-java-app
+  path: ./target/sample-0.0.1-SNAPSHOT.jar
+  buildpacks:
+  - java_buildpack
+  routes:
+  - route: hello-http-test.apps.depaas.qcorpaa.aa.com
